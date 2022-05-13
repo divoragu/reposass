@@ -1,0 +1,167 @@
+.main-sector{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "article article"
+    "section aside"
+    "section1 aside"
+    ;
+}
+.sect{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+    div{
+        h3{
+            margin: 20px
+        }
+    }
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
+.sect-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+}
+.sect-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.sect1{
+    grid-area: section1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+.sect-t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+    h3{
+        padding: 20px;
+    }
+}
+p{
+    padding: 20px;
+
+}
+.artic{
+    grid-area: article;
+    display: flex;
+    padding-top: 10px;
+    margin: 20px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 20px;
+        font-size: 27px;
+        h3{
+            font-size: 40px;
+            display: flex;
+            margin: 20px;
+        
+        }
+    }
+    img{
+        display: flex;
+        justify-content: end;
+        max-width: 350px;
+        max-height: 350px;
+        margin: 10px;
+    }
+}
+.sect-product{
+    margin: 20px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h4{
+            font-size: 30px;
+            margin: 20px;
+            animation: run-infinite;
+            animation-timing-function: ease;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    }
+    div{
+        p{
+            margin: 5px;
+            padding: 0px;
+            font-size: 20px;
+        }
+    }
+}
+.main-help{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    section{
+        h2{
+            text-align: center;
+            font-size: 50px;
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+.sector-help{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    h3{
+        padding: 20px;
+        font-size: 40px;
+        animation: wobble;
+        animation-timing-function: ease;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    p{
+        padding: 60px;
+        font-size: 20px;
+        a{
+            text-decoration: none;
+            color:black;
+            border: 1px dashed red;
+            &:hover{
+                background-color: rgb(195, 195, 230);
+            }
+        }
+    }
+}
