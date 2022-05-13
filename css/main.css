@@ -34,12 +34,12 @@ header {
 
 .nav-menu li a {
   text-decoration: none;
-  color: black;
+  color: "$color-text";
   font-size: 20px;
   padding: 20px; }
   .nav-menu li a:visited {
     text-decoration: none;
-    color: black; }
+    color: "$color-text"; }
 
 .nav-menu li:hover {
   background-color: beige;
@@ -214,7 +214,7 @@ footer {
       width: 50px;
       height: 50px; }
     footer div nav ul li a {
-      color: black;
+      color: "$color-text";
       text-decoration: none; }
     footer div nav ul li:hover {
       background-color: bisque;
@@ -261,7 +261,7 @@ footer {
     margin: 5px; }
   .item1:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item2 {
@@ -279,7 +279,7 @@ footer {
     text-align: center; }
   .item2:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item3 {
@@ -297,7 +297,7 @@ footer {
     margin: 5px; }
   .item3:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item4 {
@@ -315,7 +315,7 @@ footer {
     margin: 5px; }
   .item4:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item5 {
@@ -333,7 +333,7 @@ footer {
     margin: 5px; }
   .item5:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item6 {
@@ -351,7 +351,7 @@ footer {
     margin: 5px; }
   .item6:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item7 {
@@ -369,7 +369,7 @@ footer {
     margin: 5px; }
   .item7:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item8 {
@@ -387,7 +387,7 @@ footer {
     margin: 5px; }
   .item8:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .item9 {
@@ -405,7 +405,7 @@ footer {
     margin: 5px; }
   .item9:hover {
     transform: skew(2deg);
-    background-color: #bcd1bd;
+    background-color: "$color-hover";
     transition-duration: 1s; }
 
 .tabla {
