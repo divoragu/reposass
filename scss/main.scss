@@ -4,6 +4,9 @@
 @import "contact-main";
 @import "product-grid-table";
 
+//Variables
+$color-text: rgb(0, 0, 0);
+$color-hover: rgb(188, 209, 189);
 
 @keyframes run-infinite {
     0% {

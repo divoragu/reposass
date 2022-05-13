@@ -31,7 +31,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
@@ -54,7 +54,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
@@ -77,7 +77,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
@@ -100,7 +100,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: r$color-hover;
         transition-duration: 1s;
     }
 }
@@ -123,7 +123,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
@@ -146,7 +146,7 @@
     }    
         &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     
 }
@@ -170,7 +170,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
@@ -193,7 +193,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
@@ -216,7 +216,7 @@
     }
     &:hover{
         transform:skew(2deg) ;
-        background-color: rgb(188, 209, 189);
+        background-color: $color-hover;
         transition-duration: 1s;
     }
 }
